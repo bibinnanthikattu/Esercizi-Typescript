@@ -2,7 +2,7 @@
  * START: Follow the instructions below.
  */
 
-const populations = [
+const populations:number[] = [
     1_412_600_000,
     60_317_116,
     69_950_850,
@@ -19,9 +19,10 @@ const populations = [
 //
 // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
+const initialValue:number = 0;
 const sumOfPopulations = populations.reduce((total, population) => {
     return total + population;
-}, false);
+}, initialValue);
 
 console.log(sumOfPopulations);
 
