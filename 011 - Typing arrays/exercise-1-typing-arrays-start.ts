@@ -6,22 +6,22 @@
 // Use the array literal type syntax: type[]
 // Hint: Look at the type that TypeScript has inferred.
 
-const currencies1 = ["NZD", "THB", "NGN"];
+const currencies1:string[] = ["NZD", "THB", "NGN"];
 
 // Add a type annotation for this array.
 // Use the generic interface type `Array`: Array<type>
 
-const currencies2 = ["EUR", "COP", "INR"];
+const currencies2:Array<string> = ["EUR", "COP", "INR"];
 
 // Add a type annotation for this array.
 // Use the array literal type syntax: type[]
 
-const populations1 = [50_372_424, 1_352_642_280, 211_400_708];
+const populations1:number[] = [50_372_424, 1_352_642_280, 211_400_708];
 
 // Add a type annotation for this array.
 // Use the generic interface type `Array`: Array<type>
 
-const populations2 = [5_135_300, 331_893_745, 1_412_600_000];
+const populations2:Array<number> = [5_135_300, 331_893_745, 1_412_600_000];
 
 // ----
 
